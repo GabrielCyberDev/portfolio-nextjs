@@ -25,8 +25,13 @@ const microFrontends = {
     { src: '/images/projects/micro-frontends/order.webp', alt: 'Micro frontend de pedidos' },
   ],
   links: {
-    repo: 'https://github.com/seu-usuario/micro-frontends',
-    demo: 'https://micro-frontends-container.vercel.app',
+    repo: 'https://github.com/GabrielCyberDev/microfrontends-food',
+    demo: 'https://microfrontends-food-container.vercel.app',
+    // Provam que cada parte roda de forma independente, fora do container.
+    extraLinks: [
+      { label: 'Menu', href: 'https://microfrontends-food.vercel.app' },
+      { label: 'Order', href: 'https://microfrontends-food-1clp.vercel.app' },
+    ],
   },
 };
 

@@ -1,8 +1,11 @@
 .section {
+  padding: 40px 0 64px;
+}
+
+.mainLinks {
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
-  padding: 40px 0 64px;
 }
 
 .primary {
@@ -31,5 +34,23 @@
 
 .secondary:hover {
   border-color: var(--primary);
+  color: var(--primary);
+}
+
+.extraLinks {
+  margin-top: 16px;
+  font-size: 13px;
+  font-family: var(--font-mono);
+  color: var(--text-secondary);
+}
+
+.extraLinks a {
+  color: var(--text-secondary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color var(--transition);
+}
+
+.extraLinks a:hover {
   color: var(--primary);
 }

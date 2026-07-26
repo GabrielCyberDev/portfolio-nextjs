@@ -25,8 +25,8 @@ const travelExplorer = {
     { src: '/images/projects/travel-explorer/lighthouse.webp', alt: 'Resultado do Lighthouse' },
   ],
   links: {
-    repo: 'https://github.com/seu-usuario/travel-explorer',
-    demo: 'https://travel-explorer.vercel.app',
+    repo: 'https://github.com/GabrielCyberDev/travel-explorer-nextjs',
+    demo: 'https://travel-explorer-nextjs-lovat.vercel.app',
   },
 };
 

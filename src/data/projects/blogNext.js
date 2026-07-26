@@ -26,8 +26,8 @@ const blogNext = {
     { src: '/images/projects/blog-nextjs/lighthouse.webp', alt: 'Resultado do Lighthouse' },
   ],
   links: {
-    repo: 'https://github.com/seu-usuario/blog-nextjs',
-    demo: 'https://blog-nextjs.vercel.app',
+    repo: 'https://github.com/GabrielCyberDev/nextjs-blog-app-router',
+    demo: 'https://nextjs-blog-app-router.vercel.app',
   },
 };
 
