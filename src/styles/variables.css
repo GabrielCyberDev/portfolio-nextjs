@@ -1,0 +1,32 @@
+/* ==========================================================================
+   Design tokens — fonte única da verdade para cores, tipografia e espaçamento.
+   Paleta: dark navy / blue.
+   ========================================================================== */
+:root {
+  /* Cor */
+  --background: #050816;
+  --surface: #0f172a;
+  --surface-light: #1e293b;
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  --text: #f8fafc;
+  --text-secondary: #94a3b8;
+  --border: #334155;
+  --success: #22c55e;
+  --danger: #ef4444;
+
+  /* Forma */
+  --radius: 14px;
+  --radius-sm: 8px;
+  --shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+  --transition: 0.3s ease;
+
+  /* Tipografia — ligada às fontes carregadas via next/font em layout.js */
+  --font-display: var(--font-display-raw), system-ui, sans-serif;
+  --font-body: var(--font-body-raw), system-ui, sans-serif;
+  --font-mono: var(--font-mono-raw), ui-monospace, Consolas, monospace;
+
+  /* Layout */
+  --max-width: 1160px;
+  --section-gap: clamp(64px, 10vw, 128px);
+}

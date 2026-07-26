@@ -1,0 +1,35 @@
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  padding: 40px 0 64px;
+}
+
+.primary {
+  background: var(--primary);
+  color: var(--text);
+  padding: 13px 24px;
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  font-weight: 600;
+  transition: background var(--transition);
+}
+
+.primary:hover {
+  background: var(--primary-hover);
+}
+
+.secondary {
+  border: 1px solid var(--border);
+  padding: 13px 24px;
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  transition: border-color var(--transition), color var(--transition);
+}
+
+.secondary:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}

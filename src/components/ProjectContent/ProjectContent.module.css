@@ -1,0 +1,53 @@
+.section {
+  padding: 40px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.title {
+  font-size: 13px;
+  font-family: var(--font-mono);
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.listItem {
+  font-size: 15px;
+  color: var(--text);
+  padding-left: 20px;
+  position: relative;
+}
+
+.listItem::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.timelineItem {
+  padding-left: 20px;
+  border-left: 2px solid var(--border);
+}
+
+.timelineTitle {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.timelineText {
+  font-size: 14px;
+}

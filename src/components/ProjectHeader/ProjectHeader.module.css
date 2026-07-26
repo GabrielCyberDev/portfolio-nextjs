@@ -1,0 +1,44 @@
+.header {
+  padding: 56px 0 40px;
+  border-bottom: 1px solid var(--border);
+}
+
+.back {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-bottom: 24px;
+  transition: color var(--transition);
+}
+
+.back:hover {
+  color: var(--primary);
+}
+
+.title {
+  font-size: clamp(30px, 4vw, 44px);
+  margin-bottom: 16px;
+}
+
+.description {
+  max-width: 640px;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.techList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.techTag {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--primary);
+  background: rgba(37, 99, 235, 0.12);
+  border: 1px solid rgba(37, 99, 235, 0.3);
+  border-radius: 999px;
+  padding: 4px 10px;
+}
