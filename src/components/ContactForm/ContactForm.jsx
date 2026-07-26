@@ -109,7 +109,10 @@ export default function ContactForm() {
               </a>
             </li>
             <li>
-              <a href="mailto:gabrielcostadelima98@gmail.com">E-mail direto</a>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gabrielcostadelima98@gmail.com"
+                target="_blank"
+                rel="noreferrer">E-mail direto
+              </a>
             </li>
           </ul>
         </div>

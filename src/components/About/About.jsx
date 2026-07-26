@@ -24,7 +24,9 @@ export default function About() {
           <ul className={styles.contactList}>
             <li>
               <span className={styles.contactLabel}>E-mail</span>
-              <a href="mailto:gabrielcostadelima98@gmail.com">gabrielcostadelima98@gmail.com</a>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gabrielcostadelima98@gmail.com" target="_blank" rel="noreferrer">
+                gabrielcostadelima98@gmail.com
+              </a>
             </li>
             <li>
               <span className={styles.contactLabel}>GitHub</span>
