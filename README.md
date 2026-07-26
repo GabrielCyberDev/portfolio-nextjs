@@ -217,10 +217,3 @@ Cada aplicação possui seu próprio deploy na Vercel e comunicação desacoplad
 * LinkedIn: https://www.linkedin.com/in/gabriel-costa-178657267/
 * E-mail: [gabrielcostadelima98@gmail.com](mailto:gabrielcostadelima98@gmail.com)
 
----
-
-## 📄 Licença
-
-Este projeto está licenciado sob a **Licença MIT**.
-
-O código pode ser utilizado como referência para estudos e aprendizado, porém recomenda-se evitar sua utilização integral como entrega de atividades acadêmicas ou profissionais sem adaptações.
